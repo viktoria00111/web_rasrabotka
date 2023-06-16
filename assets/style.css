@@ -1,0 +1,80 @@
+body{
+    background-color: antiquewhite;
+}
+.tit{
+    color:rgb(127, 10, 69);
+    font-size: 30px;
+    margin: 0; /*применится отступ к каждой стороне */   
+}
+h1 {
+    color:hotpink;
+    font-size: 30px;
+    margin: 0; /*применится отступ к каждой стороне */
+}
+
+h2{
+    margin: 0; /*применится отступ к каждой стороне */
+}
+.title{
+    color:rosybrown;
+    /* размер текста  */
+    font-size: 25px;   
+}
+
+.box{
+    margin-top: 10px;/*отступ */
+    border: 2px solid firebrick;/*заливка бордюр*/
+    /* border: 2px dashed firebrick;   заливка рамки дефисами */
+    width: 630px; /*ширина*/
+    background-color:lightgoldenrodyellow; /*заливка фона*/
+    padding: 15px  /*  отступ примениться к каждой стороне*/
+}
+.wrapper{
+    /* выравниваем по центру */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.image{
+    margin-top: 15px;
+}
+
+.punkt{
+ font-size: 25px;
+}
+
+ hr{
+    background-color: brown;
+    height: 4px;
+ }
+ ol{
+    font-size: 25px;
+    
+ }
+ a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    color:blueviolet
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    /* размер шрифта */
+    font-size: 16px; 
+    color: rgb(34, 38, 38);
+    background-color: rgb(187, 206, 200);
+    /* отступ */
+    margin-top: 15px;
+}
+
+.activeBox{
+background-color: aquamarine;
+}
